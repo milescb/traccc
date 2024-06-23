@@ -220,13 +220,13 @@ int seq_run(const traccc::opts::input_data& input_opts,
                 Spacepoint formation
               ------------------------*/
 
-            {
-                traccc::performance::timer timer{"Spacepoint formation",
-                                                 elapsedTimes};
-                spacepoints_per_event =
-                    sf(vecmem::get_data(measurements_per_event),
-                       vecmem::get_data(modules_per_event));
-            }
+            // {
+            //     traccc::performance::timer timer{"Spacepoint formation",
+            //                                      elapsedTimes};
+            //     spacepoints_per_event =
+            //         sf(vecmem::get_data(measurements_per_event),
+            //            vecmem::get_data(modules_per_event));
+            // }
             // if (output_opts.directory != "") {
             //     traccc::io::write(event, output_opts.directory,
             //                       output_opts.format,
